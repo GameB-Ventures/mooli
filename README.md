@@ -1,19 +1,16 @@
-# A Typescrpipt / Node.js template on Gitpod
+# Mooli
 
-This is a [Typescrpipt / Node.js](https://github.com/microsoft/TypeScript-Node-Starter) template configured for ephemeral development environments on [Gitpod](https://www.gitpod.io/).
+## Goal
 
-## Next Steps
+Allow users to easily create smart contracts on Ethereum blockchain. 
 
-Click the button below to start a new development environment:
+Audience:
+... (think)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-io/template-typescript-node)
+### Stages
 
-## Get Started With Your Own Project
+### To Do
 
-### A new project
+- [ ] Pick one generic use case where smart contract can be generated for any of the audience above
+- [ ] Map use case into a decision tree of branches and input params
 
-Click the above "Open in Gitpod" button to start a new workspace. Once you're ready to push your first code changes, Gitpod will guide you to fork this project so you own it.
-
-### An existing project
-
-To get started with **FRAMEWORK** on Gitpod, add a [`.gitpod.yml`](./.gitpod.yml) file which contains the configuration to improve the developer experience on Gitpod. To learn more, please see the [Getting Started](https://www.gitpod.io/docs/getting-started) documentation.
