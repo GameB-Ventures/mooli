@@ -19,6 +19,7 @@ Allow users to easily create smart contracts on Ethereum blockchain.
 - [x] Pick one generic use case where smart contract can be generated for any of the audience above
 - [x] Derive one specific use-case from generic (also solves audience)
 - [x] Map use case into a decision tree of branches and input params
+- [ ] Configure site
 - [ ] Code workflow into a form
 - [ ] Deploy online
 - [ ] Validate the need
