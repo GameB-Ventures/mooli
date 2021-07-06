@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import { Button } from 'antd';
 import './App.css';
-import { Steps, Card } from 'antd';
 import Home from './Home'
 import {
   BrowserRouter as Router,
@@ -9,7 +8,6 @@ import {
   Route,
   Link
 } from "react-router-dom";
-const { Step } = Steps;
 
 function App() {
   return (
