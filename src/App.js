@@ -1,6 +1,15 @@
 import logo from './logo.svg';
 import { Button } from 'antd';
 import './App.css';
+import { Steps, Card } from 'antd';
+import Home from './Home'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+const { Step } = Steps;
 
 function App() {
   return (
@@ -21,6 +30,40 @@ function App() {
           Learn React
         </a>
       </header>
+      <div>
+      <Router>
+      <div>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/users">Users</Link>
+            </li>
+          </ul>
+        </nav>
+
+        {/* A <Switch> looks through its children <Route>s and
+            renders the first one that matches the current URL. */}
+        <Switch>
+          <Route path="/about">
+            
+          </Route>
+          <Route path="/users">
+            
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
+      </div>
+
     </div>
   );
 }
