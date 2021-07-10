@@ -20,6 +20,8 @@ Allow users to easily create smart contracts on Ethereum blockchain.
 - [x] Derive one specific use-case from generic (also solves audience)
 - [x] Map use case into a decision tree of branches and input params
 - [x] Configure site
+- [ ] Deploy contract on commit (check scaffold-eth)
+- [ ] Interact with contract on frontend
 - [ ] Code workflow into a form
 - [ ] Deploy online
 - [ ] Validate the need
