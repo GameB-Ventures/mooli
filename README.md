@@ -21,7 +21,7 @@ Allow users to easily create smart contracts on Ethereum blockchain.
 - [x] Map use case into a decision tree of branches and input params
 - [x] Configure site
 - [ ] Deploy contract on commit (check scaffold-eth)
-  - add master branch protection rules
+  - ~~add master branch protection rules~~
   - Contract test script 
   - Simple Deploy script
   - Link with github workflows (safe credits store)
