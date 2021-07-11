@@ -9,8 +9,8 @@ pragma solidity >=0.7.0 <0.9.0;
 contract Basic {
     
     // for developer maintenance access - switch to RBAC in future?
-    //address private owner;
-    address public owner; // made public for testing
+    address private owner;
+    //address public owner; // made public for testing
     
     // events
     event OwnerSet(address indexed oldOwner, address indexed newOwner);

@@ -1,8 +1,8 @@
 const { expect } = require("chai");
 //const { ethers } = require("ethers");
 
-describe("Greeter", function () {
-  it("Should return the new greeting once it's changed", async function () {
+describe("Basic contract", function () {
+  it("should pass deployment from owner", async function () {
     const Basic = await ethers.getContractFactory("Basic");
     const b = await Basic.deploy();
     await b.deployed();
@@ -12,7 +12,7 @@ describe("Greeter", function () {
     //console.log(await b.owner())
 
     // is owner set correctly? (dummy test)
-    expect(await b.owner()).to.equal(owner.address);
+    expect(await b.getOwner()).to.equal(owner.address);
 
     /*
 
