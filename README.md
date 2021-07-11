@@ -22,7 +22,7 @@ Allow users to easily create smart contracts on Ethereum blockchain.
 - [x] Configure site
 - [ ] Deploy contract on commit (check scaffold-eth)
   - ~~add master branch protection rules~~
-  - Contract test script 
+  - Contract test script https://hardhat.org/guides/waffle-testing.html
   - Simple Deploy script
   - Link with github workflows (safe credits store)
 - [ ] Interact with contract on frontend
