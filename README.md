@@ -20,12 +20,18 @@ Allow users to easily create smart contracts on Ethereum blockchain.
 - [x] Derive one specific use-case from generic (also solves audience)
 - [x] Map use case into a decision tree of branches and input params
 - [x] Configure site
+- [ ] Interact with contract on frontend
+  - Deploy a contract 
+    - Assume wallet already integrated
+    - 
 - [ ] Deploy contract on commit (check scaffold-eth)
   - ~~add master branch protection rules~~
-  - Contract test script https://hardhat.org/guides/waffle-testing.html
+  - ~~Contract test script https://hardhat.org/guides/waffle-testing.html~~
   - Simple Deploy script
+   https://hardhat.org/guides/deploying.html 
+   https://github.com/austintgriffith/scaffold-eth/blob/master/packages/hardhat/package.json
   - Link with github workflows (safe credits store)
-- [ ] Interact with contract on frontend
+
 - [ ] Code workflow into a form
 - [ ] Deploy online
 - [ ] Validate the need
@@ -68,3 +74,7 @@ Workflow In short:
 If anyone finds a new alternative, please link it here:
 
 https://unibright.io/
+
+### License
+
+For commercial use, reach out to abhi@gameb.ca. For hobbyist, fork & hack away! I'll update the license details soon.
