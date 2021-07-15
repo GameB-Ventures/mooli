@@ -10,6 +10,13 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "type": "npm",
+            "script": "hardhat:chain",
+            "problemMatcher": [],
+            "label": "npm: hardhat:chain",
+            "detail": "hardhat node --network hardhat"
         }
     ]
 }
