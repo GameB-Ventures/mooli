@@ -11,9 +11,11 @@ tasks:
   - init: |
       npm install
       npm run build
+      gp sync-done packages
     command: |
       npm run start
-  - command: |
+  - init: gp sync-await packages
+    command: |
       npm run hardhat:chain
     name: Hardhat
 
