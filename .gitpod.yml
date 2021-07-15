@@ -8,14 +8,14 @@ ports:
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
 
 tasks:
-  - command: |
-      npm run hardhat:chain
-    name: Hardhat
   - init: |
       npm install
       npm run build
     command: |
       npm run start
+  - command: |
+      npm run hardhat:chain
+    name: Hardhat
 
 vscode:
   extensions:
