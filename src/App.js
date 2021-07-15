@@ -8,6 +8,15 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import WalletConnectProvider from "@walletconnect/web3-provider";
+
+//  Create WalletConnect Provider
+const provider = new WalletConnectProvider({
+  infuraId: "27e484dcd9e3efcfd25a83a78777cdf1",
+});
+
+//  Enable session (triggers QR Code modal)
+//await provider.enable();
 
 function App() {
   return (
@@ -18,7 +27,9 @@ function App() {
           Mooli - 
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <Button type="primary">Button</Button>
+        <Button type="primary" onClick={async () => {
+          await provider.enable();
+        }}>Button</Button>
         <a
           className="App-link"
           href="https://reactjs.org"

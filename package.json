@@ -23,7 +23,9 @@
     "test": "hardhat test",
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "hardhat:chain": "hardhat node --network hardhat",
+    "hardhat:deploy": "hardhat deploy"
   },
   "eslintConfig": {
     "extends": [

@@ -9,6 +9,14 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
   }
 });
 
+task("deploy", "Deploy our basic contract", async (taskArgs, hre) => {
+  const Basic = await ethers.getContractFactory("Basic");
+  const b = await Basic.deploy();
+  await b.deployed();
+
+  
+});
+
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
