@@ -22,7 +22,9 @@ Allow users to easily create smart contracts on Ethereum blockchain.
 - [x] Configure site
 - [ ] Interact with contract on frontend
   - Deploy a contract 
-    - Assume wallet already integrated
+    - [ ] Connect to wallet button (scaffold)
+      - Understand various wallets and user fragmentation https://twitter.com/pedrouid/status/1392024981471649792
+      - Research best onboarding UX
     - 
 - [ ] Deploy contract on commit (check scaffold-eth)
   - ~~add master branch protection rules~~
@@ -67,6 +69,10 @@ Workflow In short:
 - Approver can be agency / freelancer or 3rd party based on their internal negotitation.
 
 - Once the creator is done configuring smart contract, other party reviews and approves the parameters.
+
+### Credits
+
+- Austin Griffith for scaffold-eth https://github.com/austintgriffith/scaffold-eth
 
 
 ### Alternatives
