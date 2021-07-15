@@ -12,16 +12,6 @@ tasks:
   - name: DB Server
     command: sh ./scripts/start-db.sh
     openMode: split-right
-    
-tasks1:
-  - command: |
-      npm run hardhat:chain
-    name: Hardhat
-  - init: |
-      npm install
-      npm run build
-    command: |
-      npm run start
 
 vscode:
   extensions:
