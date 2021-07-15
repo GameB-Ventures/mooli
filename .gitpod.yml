@@ -6,12 +6,16 @@ ports:
     onOpen: open-preview
 
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
+
 tasks:
-  - name: Static Server
-    command: python3 -m http.server 8080
-  - name: DB Server
-    command: sh ./scripts/start-db.sh
-    openMode: split-right
+  - command: |
+      npm run hardhat:chain
+    name: Hardhat
+  - init: |
+      npm install
+      npm run build
+    command: |
+      npm run start
 
 vscode:
   extensions:
